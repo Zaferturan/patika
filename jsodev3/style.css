@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Hafif krem rengi */
+  font-family: 'M PLUS Rounded 1c', sans-serif; /* Yuvarlak köşeli modern font */
+  color: #333;
+}
+
+h2 {
+  font-family: 'Kalam', cursive; /* El yazısı tarzı başlık fontu */
+  font-size: 3.5rem;
+  text-align: center;
+  color: #d32f2f; /* Canlı kırmızı başlık rengi */
+  margin-bottom: 40px;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.btn-item {
+  margin: 0 15px;
+  padding: 12px 25px;
+  border: 2px solid #d32f2f;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #d32f2f;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-item:hover {
+  background-color: #d32f2f;
+  color: #fff;
+}
+
+.photo {
+  width: 35%;
+  height: 220px;
+  object-fit: cover;
+  border: 5px solid #d32f2f;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.menu-items {
+  display: flex;
+  margin: 40px 0;
+  align-items: center; /* Dikey hizalama */
+}
+
+.menu-info {
+  margin-left: 40px;
+  width: 65%;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px dashed #d32f2f; /* Kesikli alt çizgi */
+  padding-bottom: 12px;
+}
+
+h4 {
+  color: #d32f2f;
+  font-size: 1.5rem;
+}
+
+.price {
+  color: #555;
+  font-weight: 600;
+}
+
+.menu-text {
+  padding-top: 25px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Fontlar */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Kalam:wght@400;700&display=swap');
